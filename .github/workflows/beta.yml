@@ -1,0 +1,10 @@
+name: my beta first workflow
+on: workflow_dispatch
+jobs:
+  firstJob:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Print hello world
+        run: echo "Hello world"
+      - name: Print another message
+        run: echo "yessir !"
